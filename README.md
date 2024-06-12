@@ -1,4 +1,6 @@
 # Parcial3
+Juan David Castañeda Tenjo
+
 Creación base de datos y tabla libros
 CREATE DATABASE Biblioteca_Juan;
 
