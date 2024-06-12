@@ -28,20 +28,25 @@ Insertar valores
 Dato en la tabla
  
 Visualización de la tabla Libros:
+
  ![image](https://github.com/Juancasta14/Parcial3/assets/162644989/2a244d59-4312-4983-9ce6-497cf6f44b26)
 
 Agregar
+
  ![image](https://github.com/Juancasta14/Parcial3/assets/162644989/a6593dde-eb3c-41c0-8d35-e9755bafb320)
 
 Agregado un nuevo libro
+
  ![image](https://github.com/Juancasta14/Parcial3/assets/162644989/fcdaaf26-8a08-4b31-835e-3d03fa2742fd)
 
 Eliminar id 4
+
  ![image](https://github.com/Juancasta14/Parcial3/assets/162644989/e7ef9020-cb43-4a45-bca8-0025d121edf8)
 ![image](https://github.com/Juancasta14/Parcial3/assets/162644989/f3ad5a9e-4ed6-4776-86bd-b327ca86911b)
 
  
 Actualizar
+
  ![image](https://github.com/Juancasta14/Parcial3/assets/162644989/a2db31ab-5f8b-4097-87fa-270275e230cc)
 ![image](https://github.com/Juancasta14/Parcial3/assets/162644989/ed3e85e9-456c-4937-a5af-c948d09b3e66)
 ![image](https://github.com/Juancasta14/Parcial3/assets/162644989/f927bac2-bd98-472c-86a2-49b1d58c18ab)
