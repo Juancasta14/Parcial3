@@ -29,20 +29,19 @@ public class Libro implements LibroRemote   {
         // TODO Auto-generated constructor stub
     }
     
-    public void Define(String titulo, String autor, String paginas, String fecha_prestamo, String fecha_entrega, String tipo, String prestamista, String resumen) {
+    public void Define(String titulo, String autor, String paginas,  String tipo, String prestamista, String resumen) {
     	
     	this.titulo = titulo;
     	this.autor = autor;
     	this.paginas = paginas;
-    	this.fecha_prestamo =  new Date(fecha_prestamo);
-    	this.fecha_entrega = new Date(fecha_entrega);
+
     	this.tipo = tipo;
     	this.tipo = tipo;
     	this.resumen = resumen;
     }
 
 	@Override
-	public void setLibro(String titulo, String autor, String paginas, String fecha_prestamo, String fecha_entrega,
+	public void setLibro(String titulo, String autor, String paginas, 
 			String tipo, String prestamista, String resumen) {
 	
 		

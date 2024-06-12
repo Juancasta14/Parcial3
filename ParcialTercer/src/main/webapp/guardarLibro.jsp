@@ -26,19 +26,19 @@
 <%
 Date date1 = new Date(2024-05-19);
 Date date2 = new Date(2024-06-20);
-	libro1.Define("Harry potter 5", "Juan C.", "230", "2024-05-19","2024-06-20","ficcion","Juan c", "alshdaosgdoaigsdog");
+	libro1.Define("Harry potter 5", "Juan C.", "230", "ficcion","Juan c", "alshdaosgdoaigsdog");
 	
 %>
 <sql:update dataSource = "${dbSource}" var = "count">
-        INSERT INTO Libros;
-            (titulo, autor, paginas, fecha_prestamo, fecha_entrega, tipo, prestamista, resumen) 
-            VALUES (?, ?, ?, ?, ? , ? , ? , ?);
+        INSERT INTO Libros
+            (titulo, autor, paginas, tipo,fecha_prestamo,fecha_entrega, prestamista , resumen) 
+            VALUES (?, ?, ?, ?, ? , ? , ?, ? );
         <sql:param value = "<%=libro1.titulo%>" />
         <sql:param value = "<%=libro1.autor%>" />
         <sql:param value = "<%=libro1.paginas%>" />    	 
-        <sql:dateParam value = "<%=date1%>" type = "DATE" />
-        <sql:dateParam value = "<%=date2%>" type = "DATE" />
-        <sql:param value = "<%=libro1.tipo%>" /> 
+        <sql:param value = "<%=libro1.tipo%>" />
+          <sql:param value = "2024-06-10" />    	 
+        <sql:param value = "2024-06-10" />  
         <sql:param value = "<%=libro1.prestamista%>" /> 
         <sql:param value = "<%=libro1.resumen%>" /> 
     </sql:update>
